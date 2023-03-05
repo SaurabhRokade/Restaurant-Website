@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    height: 100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-image:url("./assets/Background\ Image.png") ;
+    
+    background-size: cover;
+}
+
+img{
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* padding: 10%; */
+}
+/* .logo{
+    font-size: 28px;
+
+} */
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 22px;
+    color: darkgoldenrod;
+
+
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(245, 234, 24);
+}
+
+nav ul li a:hover{
+    color: #ea1538;
+    transition: .3s;
+
+}
+
+button{
+    border:none;
+    background: #ea1538;
+    padding: 12px 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .4s;
+}
+button:hover{
+    /* transform: scale(1,1.1); */
+    cursor: pointer;
+    background-color: bisque;
+    color: chocolate;
+
+}
+p{
+    font-size: 80px;
+    color: rgb(244, 248, 33);
+    font-weight: 900;
+margin-top: 150px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.middlebutton{
+    
+    margin-top: 20px;
+}
+footer{
+    margin-left: 1500px;
+}
